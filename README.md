@@ -12,21 +12,21 @@ This project aims to build a plagiarism detector that examines an answer text fi
 
 The process can be broken down into a few discrete steps:
 
-*Clean and pre-process the data.
-*Define features for comparing the similarity of an answer text and a source text, and extract similarity features.
-*Select "good" features, by analyzing the correlations between different features.
-*Create train/test .csv files that hold the relevant features and class labels for train/test data points.
+* Clean and pre-process the data.
+* Define features for comparing the similarity of an answer text and a source text, and extract similarity features.
+* Select "good" features, by analyzing the correlations between different features.
+* Create train/test .csv files that hold the relevant features and class labels for train/test data points.
 
 
 ## Libraries
 
 The libraries required for this project are:
 
-*Numpy
-*Panda
-*Scikit-learn
-*boto3
-*sagemaker
+* Numpy
+* Panda
+* Scikit-learn
+* Boto3
+* Sagemaker
 
 
 ## Note
